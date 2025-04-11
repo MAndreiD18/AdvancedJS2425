@@ -10,7 +10,7 @@ class Carte{
         console.log(`Titlul cartii este ${this.titlu}`);
 }
     afiseazaInfo(){
-        console.log(`Detalii despre aceasta carte sunt: ${this.titlu}, ${this.autor}, ${this.editura}, ${this.an}, ${this.pret}`);
+        `Detalii despre aceasta carte sunt: ${this.titlu}, ${this.autor}, ${this.editura}, ${this.an}, ${this.pret}`;
     }
     deschidCartea(){
         console.log(`Am deschis cartea la pagina 15`);
