@@ -38,7 +38,13 @@
             static extendedStaticField = super.baseStaticField; 
         }
         let obj = new Extended();
+        let obj1 = new Base();
+        console.log(obj1.baseField)
+        console.log(obj1.extendedStaticField)
+        console.log(obj1.extendedField)
+        console.log(Base.baseStaticField);
         console.log(obj.baseField);
+        console.log(obj.baseStaticField);
         console.log(obj.extendedField); //undefined
         console.log(Extended.extendedStaticField);
         // NU puteți folosi super pentru a accesa câmpul de instanță al unei superclase.
